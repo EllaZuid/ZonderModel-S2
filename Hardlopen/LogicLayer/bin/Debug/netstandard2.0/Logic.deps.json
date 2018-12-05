@@ -11,6 +11,7 @@
         "dependencies": {
           "ChartJSCore": "1.3.1",
           "DAL": "1.0.0",
+          "Factory2": "1.0.0",
           "Model": "1.0.0",
           "MySql.Data": "8.0.12",
           "NETStandard.Library": "2.0.3",
@@ -732,12 +733,32 @@
       "DAL/1.0.0": {
         "dependencies": {
           "ChartJSCore": "1.3.1",
+          "Interface Logic-DAL": "1.0.0",
           "Model": "1.0.0",
           "MySql.Data": "8.0.12",
           "System.Data.SqlClient": "4.5.1"
         },
         "runtime": {
           "DAL.dll": {}
+        }
+      },
+      "Factory2/1.0.0": {
+        "dependencies": {
+          "DAL": "1.0.0",
+          "Interface Logic-DAL": "1.0.0"
+        },
+        "runtime": {
+          "Factory2.dll": {}
+        }
+      },
+      "Interface Logic-DAL/1.0.0": {
+        "runtime": {
+          "Interface Logic-DAL.dll": {}
+        }
+      },
+      "Interface UI-Logic/1.0.0": {
+        "runtime": {
+          "Interface UI-Logic.dll": {}
         }
       },
       "Model/1.0.0": {
@@ -1200,6 +1221,21 @@
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
     "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Factory2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interface Logic-DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interface UI-Logic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

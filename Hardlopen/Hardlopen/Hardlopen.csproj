@@ -346,6 +346,14 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\Factory\Factory.csproj">
+      <Project>{330b5aea-7370-4b07-948a-82eba3bd15ab}</Project>
+      <Name>Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface UI-Logic\Interface UI-Logic.csproj">
+      <Project>{958239e3-a594-4e48-af48-dddb8a1eb24a}</Project>
+      <Name>Interface UI-Logic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LogicLayer\Logic.csproj">
       <Project>{7306f39a-3637-48d0-b4a8-dd9110efa1d6}</Project>
       <Name>Logic</Name>

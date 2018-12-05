@@ -928,6 +928,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ChartJSCore": "1.3.1",
+          "Interface Logic-DAL": "1.0.0",
           "Model": "1.0.0",
           "MySql.Data": "8.0.12",
           "System.Data.SqlClient": "4.5.1"
@@ -937,6 +938,39 @@
         },
         "runtime": {
           "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Factory2/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "Interface Logic-DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Factory2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Factory2.dll": {}
+        }
+      },
+      "Interface Logic-DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Interface Logic-DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interface Logic-DAL.dll": {}
+        }
+      },
+      "Interface UI-Logic/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Interface UI-Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interface UI-Logic.dll": {}
         }
       },
       "Model/1.0.0": {
@@ -4001,6 +4035,21 @@
       "path": "../DalLayer/DAL.csproj",
       "msbuildProject": "../DalLayer/DAL.csproj"
     },
+    "Factory2/1.0.0": {
+      "type": "project",
+      "path": "../Factory2/Factory2.csproj",
+      "msbuildProject": "../Factory2/Factory2.csproj"
+    },
+    "Interface Logic-DAL/1.0.0": {
+      "type": "project",
+      "path": "../Interface Logic-DAL/Interface Logic-DAL.csproj",
+      "msbuildProject": "../Interface Logic-DAL/Interface Logic-DAL.csproj"
+    },
+    "Interface UI-Logic/1.0.0": {
+      "type": "project",
+      "path": "../Interface UI-Logic/Interface UI-Logic.csproj",
+      "msbuildProject": "../Interface UI-Logic/Interface UI-Logic.csproj"
+    },
     "Model/1.0.0": {
       "type": "project",
       "path": "../ModelLayer/Model.csproj",
@@ -4011,6 +4060,9 @@
     ".NETStandard,Version=v2.0": [
       "ChartJSCore >= 1.3.1",
       "DAL >= 1.0.0",
+      "Factory2 >= 1.0.0",
+      "Interface Logic-DAL >= 1.0.0",
+      "Interface UI-Logic >= 1.0.0",
       "Model >= 1.0.0",
       "MySql.Data >= 8.0.12",
       "NETStandard.Library >= 2.0.3",
@@ -4049,6 +4101,15 @@
           "projectReferences": {
             "C:\\Users\\Ella\\source\\repos\\Maatwerk-S2\\ZonderModel-S2\\Hardlopen\\DalLayer\\DAL.csproj": {
               "projectPath": "C:\\Users\\Ella\\source\\repos\\Maatwerk-S2\\ZonderModel-S2\\Hardlopen\\DalLayer\\DAL.csproj"
+            },
+            "C:\\Users\\Ella\\source\\repos\\Maatwerk-S2\\ZonderModel-S2\\Hardlopen\\Factory2\\Factory2.csproj": {
+              "projectPath": "C:\\Users\\Ella\\source\\repos\\Maatwerk-S2\\ZonderModel-S2\\Hardlopen\\Factory2\\Factory2.csproj"
+            },
+            "C:\\Users\\Ella\\source\\repos\\Maatwerk-S2\\ZonderModel-S2\\Hardlopen\\Interface Logic-DAL\\Interface Logic-DAL.csproj": {
+              "projectPath": "C:\\Users\\Ella\\source\\repos\\Maatwerk-S2\\ZonderModel-S2\\Hardlopen\\Interface Logic-DAL\\Interface Logic-DAL.csproj"
+            },
+            "C:\\Users\\Ella\\source\\repos\\Maatwerk-S2\\ZonderModel-S2\\Hardlopen\\Interface UI-Logic\\Interface UI-Logic.csproj": {
+              "projectPath": "C:\\Users\\Ella\\source\\repos\\Maatwerk-S2\\ZonderModel-S2\\Hardlopen\\Interface UI-Logic\\Interface UI-Logic.csproj"
             },
             "C:\\Users\\Ella\\source\\repos\\Maatwerk-S2\\ZonderModel-S2\\Hardlopen\\ModelLayer\\Model.csproj": {
               "projectPath": "C:\\Users\\Ella\\source\\repos\\Maatwerk-S2\\ZonderModel-S2\\Hardlopen\\ModelLayer\\Model.csproj"

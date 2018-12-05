@@ -77,38 +77,36 @@ namespace Hardlopen.Controllers
 
         private BarDataset MaakBarAfstand()
         {
+            List<double> data = _activiteitLogic.ToonOverzichtAfstandBar((int) Session["idIngeloggd"]);
+            List<string> kleur = new List<string>();
+            foreach (double d in data)
+            {
+                kleur.Add("rgb(150, 0, 150)");
+            }
             BarDataset datasetbarAfstand = new BarDataset()
             {
                 Label = "Afstand",
                 YAxisID = "A",
-                BackgroundColor = new List<string>()
-                {
-                    "rgb(150, 0, 150)",
-                    "rgb(150, 0, 150)",
-                    "rgb(150, 0, 150)",
-                    "rgb(150, 0, 150)",
-                    "rgb(150, 0, 150)"
-                },
-                Data = _activiteitLogic.ToonOverzichtAfstandBar((int)Session["idIngeloggd"])
+                BackgroundColor = kleur,
+                Data = data
             };
             return datasetbarAfstand;
         }
 
         private BarDataset MaakBarTijd()
         {
+            List<double> data = _activiteitLogic.ToonOverzichtTijdBar((int) Session["idIngeloggd"]);
+            List<string> kleur = new List<string>();
+            foreach (double d in data)
+            {
+                kleur.Add("rgb(150, 0, 200)");
+            }
             BarDataset datasetbarTijd = new BarDataset()
             {
                 Label = "Tijd",
                 YAxisID = "B",
-                BackgroundColor = new List<string>()
-                {
-                    "rgb(150, 0, 200)",
-                    "rgb(150, 0, 200)",
-                    "rgb(150, 0, 200)",
-                    "rgb(150, 0, 200)",
-                    "rgb(150, 0, 200)"
-                },
-                Data = _activiteitLogic.ToonOverzichtTijdBar((int)Session["idIngeloggd"])
+                BackgroundColor = kleur,
+                Data = data
             };
             return datasetbarTijd;
         }

@@ -12,6 +12,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DalLayer\DAL.csproj" />
+    <ProjectReference Include="..\Factory2\Factory2.csproj" />
+    <ProjectReference Include="..\Interface Logic-DAL\Interface Logic-DAL.csproj" />
+    <ProjectReference Include="..\Interface UI-Logic\Interface UI-Logic.csproj" />
     <ProjectReference Include="..\ModelLayer\Model.csproj" />
   </ItemGroup>
 

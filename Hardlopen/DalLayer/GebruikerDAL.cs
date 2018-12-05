@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using Model;
+using Interface_Logic_DAL;
 
 namespace DAL
 {
-    public class GebruikerDal
+    public class GebruikerDal : IGebruikerDAL
     {
-        const string Connectionstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ella\source\repos\Maatwerk-S2\Hardlopen\Hardlopen\App_Data\DatabaseHardlopen.mdf;Integrated Security=True";
+        const string Connectionstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\USERS\ELLA\SOURCE\REPOS\MAATWERK-S2\ZONDERMODEL-S2\HARDLOPEN\HARDLOPEN\APP_DATA\DATABASEHARDLOPEN.MDF";
         readonly SqlConnection _conn = new SqlConnection(Connectionstring);
 
-        public List<Gebruiker> GebruikerId = new List<Gebruiker>();
-        public List<Gebruiker> IdRegistratie = new List<Gebruiker>();
+        public List<GebruikerInfo> IdRegistratie { get; set; } = new List<GebruikerInfo>();
+        public List<GebruikerInfo> GebruikerId { get; set; } = new List<GebruikerInfo>();
 
         private void Open()
         {
@@ -20,7 +20,7 @@ namespace DAL
             Console.WriteLine("Verbonden met " + Connectionstring + ".");
         }
 
-        public List<Gebruiker> OphalenGebruikersInfo()
+        public List<GebruikerInfo> OphalenGebruikersInfo()
         {
             Open();
             string query = "SELECT ID, Naam, Wachtwoord FROM Gebruiker";
@@ -33,7 +33,7 @@ namespace DAL
                     int id = reader.GetInt32(0);
                     string naam = reader.GetString(1);
                     string wachtwoord = reader.GetString(2);
-                    Gebruiker persoon = new Gebruiker(id, naam, wachtwoord);
+                    GebruikerInfo persoon = new GebruikerInfo(id, naam, wachtwoord);
                     GebruikerId.Add(persoon);
                 }
             }
@@ -56,7 +56,7 @@ namespace DAL
             Close();
         }
 
-        public List<Gebruiker> IdRegistratieOphalen(string naam)
+        public List<GebruikerInfo> IdRegistratieOphalen(string naam)
         {
             Open();
             string query = "SELECT ID FROM Gebruiker WHERE Naam = @Naam";
@@ -67,7 +67,7 @@ namespace DAL
                 while (reader.Read())
                 {
                     int id = reader.GetInt32(0);
-                    Gebruiker persoon = new Gebruiker(id, naam);
+                    GebruikerInfo persoon = new GebruikerInfo(id, naam);
                     IdRegistratie.Add(persoon);
                 }
             }
