@@ -1,0 +1,27 @@
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\LogicTests.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\LogicTests.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\LogicGoed2.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\DAL.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Model.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Interface UI-Logic.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Factory2.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Interface Logic-DAL.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\netstandard.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\LogicGoed2.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\DAL.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Model.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Interface UI-Logic.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Factory2.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Interface Logic-DAL.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\obj\Debug\LogicTests.csprojAssemblyReference.cache
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\obj\Debug\LogicTests.csproj.CoreCompileInputs.cache
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\obj\Debug\LogicTests.csproj.CopyComplete
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\obj\Debug\LogicTests.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\obj\Debug\LogicTests.pdb
