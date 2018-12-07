@@ -614,7 +614,6 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Sy
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\ChartJSCore.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Google.Protobuf.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Interface UI-Logic.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Logic.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Microsoft.AspNetCore.DataProtection.dll
@@ -659,7 +658,6 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Sy
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\System.Web.Webpages.Razor.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\DAL.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Interface UI-Logic.pdb
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Logic.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Model.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Google.Protobuf.xml
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
@@ -708,3 +706,5 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\In
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Interface Logic-DAL.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Factory2.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Factory2.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\LogicGoed2.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\LogicGoed2.pdb

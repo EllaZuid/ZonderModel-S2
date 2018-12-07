@@ -49,8 +49,8 @@
       <Project>{958239e3-a594-4e48-af48-dddb8a1eb24a}</Project>
       <Name>Interface UI-Logic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LogicLayer\Logic.csproj">
-      <Project>{7306f39a-3637-48d0-b4a8-dd9110efa1d6}</Project>
+    <ProjectReference Include="..\LogicGoed2\Logic.csproj">
+      <Project>{6d937ca0-2064-4f85-91e1-7c4f96c68cae}</Project>
       <Name>Logic</Name>
     </ProjectReference>
   </ItemGroup>
