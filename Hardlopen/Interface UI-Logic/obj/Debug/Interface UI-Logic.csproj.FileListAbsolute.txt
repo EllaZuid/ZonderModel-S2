@@ -1,0 +1,6 @@
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Interface UI-Logic\bin\Debug\Interface UI-Logic.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Interface UI-Logic\bin\Debug\Interface UI-Logic.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Interface UI-Logic\obj\Debug\Interface UI-Logic.csprojAssemblyReference.cache
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Interface UI-Logic\obj\Debug\Interface UI-Logic.csproj.CoreCompileInputs.cache
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Interface UI-Logic\obj\Debug\Interface UI-Logic.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Interface UI-Logic\obj\Debug\Interface UI-Logic.pdb
