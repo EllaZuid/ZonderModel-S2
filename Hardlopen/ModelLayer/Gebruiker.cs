@@ -12,6 +12,8 @@ namespace Model
         public double Lengte { get; set; }
         public string Geslacht { get; set; }
 
+        public Gebruiker() {}
+
         public Gebruiker(int id, string naam)
         {
             Id = id;

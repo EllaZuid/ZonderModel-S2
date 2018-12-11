@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DAL2\DAL.csproj">
+      <Project>{b55e720d-284c-4d0f-8cca-f7f63b4132f1}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Interface UI-Logic\Interface UI-Logic.csproj">
       <Project>{958239e3-a594-4e48-af48-dddb8a1eb24a}</Project>
       <Name>Interface UI-Logic</Name>

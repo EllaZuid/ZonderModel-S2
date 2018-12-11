@@ -111,3 +111,6 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\obj\D
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\obj\Debug\Logic.csproj.CopyComplete
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\obj\Debug\LogicGoed2.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\obj\Debug\LogicGoed2.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\DAL2.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\DAL2.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\System.Data.SqlClient.dll

@@ -49,8 +49,8 @@
     <Compile Include="RouteLogic.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DalLayer\DAL.csproj">
-      <Project>{f857fbd4-ce80-4aec-a50c-d45ffbf6b2a6}</Project>
+    <ProjectReference Include="..\DAL2\DAL.csproj">
+      <Project>{b55e720d-284c-4d0f-8cca-f7f63b4132f1}</Project>
       <Name>DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Factory2\Factory2.csproj">

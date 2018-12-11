@@ -11,7 +11,6 @@ namespace DAL
         const string Connectionstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ella\source\repos\Maatwerk-S2\Hardlopen\Hardlopen\App_Data\DatabaseHardlopen.mdf;Integrated Security=True";
         readonly SqlConnection _conn = new SqlConnection(Connectionstring);
 
-        public List<double> LoopmomentOverzichtTijdBar = new List<double>();
         public List<double> LoopmomentOverzichtAfstandBar = new List<double>();
         public List<Activiteit> LoopmomentOverzichtLine = new List<Activiteit>();
 
@@ -36,13 +35,13 @@ namespace DAL
 
         public List<double> GegevensOverzichtOphalenTijdBar(int id)
         {
+            List<double> LoopmomentOverzichtTijdBar = new List<double>();
             Open();
             string query = "SELECT Tijd FROM Loopmoment WHERE Afstand > 1000 AND Gebruiker = @Id";
             SqlCommand commandOverzicht = new SqlCommand(query, _conn);
             commandOverzicht.Parameters.Add("@Id", SqlDbType.NChar).Value = id;
             using (SqlDataReader reader = commandOverzicht.ExecuteReader())
             {
-                LoopmomentOverzichtTijdBar.Clear();
                 while (reader.Read())
                 {
                     int tijd = reader.GetInt32(0);
@@ -70,7 +69,7 @@ namespace DAL
                 }
             }
             Close();
-            return LoopmomentOverzichtTijdBar;
+            return LoopmomentOverzichtAfstandBar;
         }
 
         public List<Activiteit> GegevensOverzichtOphalenLine(int id)

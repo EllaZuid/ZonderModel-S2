@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hardlopen", "Hardlopen\Hardlopen.csproj", "{6C3F54BD-7F66-4AB5-B186-C8FB726DC61F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DalLayer\DAL.csproj", "{F857FBD4-CE80-4AEC-A50C-D45FFBF6B2A6}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "ModelLayer\Model.csproj", "{66872531-3F3C-477B-9889-2BE9A57944E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface UI-Logic", "Interface UI-Logic\Interface UI-Logic.csproj", "{958239E3-A594-4E48-AF48-DDDB8A1EB24A}"
@@ -21,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "LogicGoed2\Logic.c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicTests", "LogicTests\LogicTests.csproj", "{FD664777-0E0A-467E-BD44-1299C6C37739}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL2\DAL.csproj", "{B55E720D-284C-4D0F-8CCA-F7F63B4132F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,10 +31,6 @@ Global
 		{6C3F54BD-7F66-4AB5-B186-C8FB726DC61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C3F54BD-7F66-4AB5-B186-C8FB726DC61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C3F54BD-7F66-4AB5-B186-C8FB726DC61F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F857FBD4-CE80-4AEC-A50C-D45FFBF6B2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F857FBD4-CE80-4AEC-A50C-D45FFBF6B2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F857FBD4-CE80-4AEC-A50C-D45FFBF6B2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F857FBD4-CE80-4AEC-A50C-D45FFBF6B2A6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66872531-3F3C-477B-9889-2BE9A57944E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66872531-3F3C-477B-9889-2BE9A57944E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66872531-3F3C-477B-9889-2BE9A57944E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +59,10 @@ Global
 		{FD664777-0E0A-467E-BD44-1299C6C37739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD664777-0E0A-467E-BD44-1299C6C37739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD664777-0E0A-467E-BD44-1299C6C37739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55E720D-284C-4D0F-8CCA-F7F63B4132F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55E720D-284C-4D0F-8CCA-F7F63B4132F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55E720D-284C-4D0F-8CCA-F7F63B4132F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55E720D-284C-4D0F-8CCA-F7F63B4132F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

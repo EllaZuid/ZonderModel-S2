@@ -708,3 +708,5 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Fa
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Factory2.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\LogicGoed2.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\LogicGoed2.pdb
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\DAL2.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\DAL2.pdb

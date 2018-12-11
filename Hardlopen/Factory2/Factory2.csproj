@@ -5,8 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DalLayer\DAL.csproj" />
     <ProjectReference Include="..\Interface Logic-DAL\Interface Logic-DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DAL">
+      <HintPath>..\Hardlopen\Bin\DAL.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

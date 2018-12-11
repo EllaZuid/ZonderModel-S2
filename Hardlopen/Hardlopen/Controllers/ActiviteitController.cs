@@ -6,12 +6,13 @@ using ChartJSCore.Models;
 using Hardlopen.viewModels;
 using Model;
 using Logic;
+using DAL;
 
 namespace Hardlopen.Controllers
 {
     public class ActiviteitController : Controller
     {
-        private readonly ActiviteitLogic _activiteitLogic = new ActiviteitLogic();
+        private readonly ActiviteitLogic _activiteitLogic = new ActiviteitLogic(new ActiviteitDal());
         private readonly Chart _chart = new Chart();
         private readonly Data _data = new Data();
 

@@ -346,6 +346,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\DAL2\DAL.csproj">
+      <Project>{b55e720d-284c-4d0f-8cca-f7f63b4132f1}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Factory\Factory.csproj">
       <Project>{330b5aea-7370-4b07-948a-82eba3bd15ab}</Project>
       <Name>Factory</Name>
