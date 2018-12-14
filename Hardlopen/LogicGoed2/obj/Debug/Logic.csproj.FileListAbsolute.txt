@@ -96,12 +96,10 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\D
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\System.Xml.XmlSerializer.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\System.Xml.XPath.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\System.Xml.XPath.XDocument.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\DAL.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Factory2.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Interface Logic-DAL.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Interface UI-Logic.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Model.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\DAL.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Factory2.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Interface Logic-DAL.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Interface UI-Logic.pdb
@@ -113,4 +111,3 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\obj\D
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\obj\Debug\LogicGoed2.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\DAL2.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\DAL2.pdb
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\System.Data.SqlClient.dll

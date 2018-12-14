@@ -2,7 +2,7 @@
 using DAL;
 using Interface_Logic_DAL;
 
-namespace Factory
+namespace Factory2
 {
     public class MemoryFactory
     {

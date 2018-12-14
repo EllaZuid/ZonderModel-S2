@@ -111,7 +111,6 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\D
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\System.Xml.XPath.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Castle.Core.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\DAL.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\LogicGoed2.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Moq.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
@@ -119,7 +118,6 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\D
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Interface Logic-DAL.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Interface UI-Logic.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Factory2.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\DAL.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\LogicGoed2.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Castle.Core.xml
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Moq.pdb
@@ -131,4 +129,3 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\D
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\Factory2.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\DAL2.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\DAL2.pdb
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicTests\bin\Debug\System.Data.SqlClient.dll

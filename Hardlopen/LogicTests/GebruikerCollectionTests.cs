@@ -6,6 +6,7 @@ namespace Logic.Tests
     [TestClass()]
     public class GebruikerCollectionTests
     {
+        //Unit tests
         private readonly Gebruiker _gebruikerGoed = new Gebruiker(6, "Ella", "Test");
         private readonly Gebruiker _gebruikerNull = new Gebruiker();
 

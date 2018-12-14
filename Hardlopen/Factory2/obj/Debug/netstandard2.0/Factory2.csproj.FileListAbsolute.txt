@@ -1,10 +1,8 @@
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\Factory2.deps.json
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\Factory2.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\Factory2.pdb
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\DAL.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\Interface Logic-DAL.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\Model.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\DAL.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\Interface Logic-DAL.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\Model.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\obj\Debug\netstandard2.0\Factory2.csproj.CoreCompileInputs.cache
@@ -14,4 +12,5 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\obj\Deb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\obj\Debug\netstandard2.0\Factory2.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\obj\Debug\netstandard2.0\Factory2.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\obj\Debug\netstandard2.0\Factory2.csprojAssemblyReference.cache
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\DAL2.dll
+C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory2\bin\Debug\netstandard2.0\DAL2.pdb

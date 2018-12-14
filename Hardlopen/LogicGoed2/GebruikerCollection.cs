@@ -4,14 +4,13 @@ using System.Security.Cryptography;
 using DAL;
 using Interface_UI_Logic;
 using Interface_Logic_DAL;
-using Factory;
+using Factory2;
 
 namespace Logic
 {
     public class GebruikerCollection : IGebruiker
     {
         private readonly MemoryFactory _memoryFactory = new MemoryFactory();
-        private readonly IGebruikerDAL _iGebruikerDal = new GebruikerDal();
 
         public string HashedWachtwoord;
 

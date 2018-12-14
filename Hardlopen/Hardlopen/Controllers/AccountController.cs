@@ -30,8 +30,8 @@ namespace Hardlopen.Controllers
         {
             IGebruiker gebruiker = new Gebruiker(viewModel.GebruikersNaam, viewModel.Wachtwoord);
             Session["idIngeloggd"] = factory.Inloggen(gebruiker); 
-            if ((int)Session["idIngeloggd"] > 0) //System.NullReferenceException: 'De objectverwijzing is niet op een exemplaar van een object ingesteld.'
-            {
+            if ((int)Session["idIngeloggd"] > 0)
+            { 
                 return RedirectToAction("Index", "Home");
             }
             return View();
@@ -56,8 +56,7 @@ namespace Hardlopen.Controllers
             double lengte = Convert.ToDouble(viewModel.Lengte);
             IGebruiker gebruiker = new Gebruiker(viewModel.Naam, viewModel.Wachtwoord, viewModel.Email, viewModel.Geslacht, gewicht, lengte);
             Session["idIngeloggd"] = factory.Registreren(gebruiker, viewModel.WachtwoordHerhaling);
-            if ((int)Session["idIngeloggd"] > 0) //System.NullReferenceException:
-                                                 //'De objectverwijzing is niet op een exemplaar van een object ingesteld.'
+            if ((int)Session["idIngeloggd"] > 0)
             {
                 return RedirectToAction("Index", "Home");
             }

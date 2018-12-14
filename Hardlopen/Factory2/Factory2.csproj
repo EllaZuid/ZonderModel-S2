@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DAL2\DAL.csproj" />
     <ProjectReference Include="..\Interface Logic-DAL\Interface Logic-DAL.csproj" />
   </ItemGroup>
 

@@ -656,7 +656,6 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Sy
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\System.Web.Webpages.Deployment.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\System.Web.Webpages.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\System.Web.Webpages.Razor.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\DAL.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Interface UI-Logic.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Model.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Google.Protobuf.xml
@@ -694,7 +693,6 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Sy
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\System.Web.Helpers.xml
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\System.Web.Mvc.xml
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\DAL.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\obj\Debug\Hardlopen.csprojAssemblyReference.cache
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\obj\Debug\Hardlopen.csproj.CoreCompileInputs.cache
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\obj\Debug\Hardlopen.csproj.CopyComplete

@@ -9,6 +9,7 @@ namespace Logic.Tests
     [TestClass()]
     public class ActiviteitLogicTests
     {
+        //Intergration tests
         private Mock<ActiviteitDal> _activiteitDalMock;
         private ActiviteitLogic _activiteitLogic;
 
