@@ -17,11 +17,16 @@ namespace Logic
             _activiteitDal = activiteitDal;
         }
 
+        public ActiviteitLogic()
+        {
+            
+        }
+
         public void GegevensInvullen(Activiteit activiteit, int gebruikerId)
         {
-            int tijd = activiteit.Tijd * 60;
-            int afstand = activiteit.Afstand * 1000;
-            _activiteitDal.GegevensInvullen(tijd, activiteit.Datum, afstand, gebruikerId);
+            activiteit.SetTijd(activiteit.Tijd * 60);
+            activiteit.SetAfstand(activiteit.Afstand * 1000);
+            _activiteitDal.GegevensInvullen(activiteit, gebruikerId);
         }
         public virtual List<double> ToonOverzichtLine(int id)
         {

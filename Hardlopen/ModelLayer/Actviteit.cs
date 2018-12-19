@@ -31,5 +31,15 @@ namespace Model
         {
             GemiddeldeSnelheid = gemiddeldeSnelheid;
         }
+
+        public void SetTijd(int tijd)
+        {
+            this.Tijd = tijd;
+        }
+
+        public void SetAfstand(int afstand)
+        {
+            this.Afstand = afstand;
+        }
     }
 }

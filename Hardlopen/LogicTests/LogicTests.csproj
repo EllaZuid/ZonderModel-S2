@@ -71,7 +71,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="ActiviteitLogicTests.cs" />
-    <Compile Include="GebruikerCollectionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

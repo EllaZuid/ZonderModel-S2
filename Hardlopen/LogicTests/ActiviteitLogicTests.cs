@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Logic;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DAL;
 using Model;
@@ -60,6 +61,17 @@ namespace Logic.Tests
 
             Assert.AreEqual(1, result[0]);
             Assert.AreEqual(2, result[1]);
+        }
+
+        //Unit test
+        [TestMethod()]
+        public void GegevensInvullenTest()
+        {
+            Activiteit activiteit = new Activiteit(10, 6);
+            ActiviteitLogic activiteitLogic = new ActiviteitLogic();
+            activiteitLogic.GegevensInvullen(activiteit, 6); //Error met naar Dal laag
+            Assert.Equals(activiteit.Tijd, 10000);
+            Assert.Equals(activiteit.Afstand, 360);
         }
     }
 }

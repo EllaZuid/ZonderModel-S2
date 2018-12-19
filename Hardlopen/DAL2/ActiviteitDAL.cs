@@ -17,15 +17,15 @@ namespace DAL
             Console.WriteLine("Verbonden met " + Connectionstring + ".");
         }
 
-        public void GegevensInvullen(int tijd, DateTime datum, int afstand, int gebruikerId)
+        public void GegevensInvullen(Activiteit activiteit, int gebruikerId)
         {
             Open();
             string query = "INSERT INTO dbo.[Loopmoment] (gebruiker, tijd, datum, afstand) VALUES (@Gebruiker, @Tijd, @Datum, @Afstand)";
             SqlCommand commandInvullen = new SqlCommand(query, _conn);
             commandInvullen.Parameters.Add("@Gebruiker", SqlDbType.Int).Value = gebruikerId;
-            commandInvullen.Parameters.Add("@Tijd", SqlDbType.Int).Value = tijd;
-            commandInvullen.Parameters.Add("@Datum", SqlDbType.DateTime).Value = datum;
-            commandInvullen.Parameters.Add("@Afstand", SqlDbType.Int).Value = afstand;
+            commandInvullen.Parameters.Add("@Tijd", SqlDbType.Int).Value = activiteit.Tijd;
+            commandInvullen.Parameters.Add("@Datum", SqlDbType.DateTime).Value = activiteit.Datum;
+            commandInvullen.Parameters.Add("@Afstand", SqlDbType.Int).Value = activiteit.Afstand;
             commandInvullen.ExecuteNonQuery();
             Close();
         }
