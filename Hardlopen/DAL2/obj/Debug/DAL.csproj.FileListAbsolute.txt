@@ -97,9 +97,7 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\DAL2\bin\Debug\S
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\DAL2\bin\Debug\System.Xml.XPath.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\DAL2\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\DAL2\bin\Debug\Interface Logic-DAL.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\DAL2\bin\Debug\Model.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\DAL2\bin\Debug\Interface Logic-DAL.pdb
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\DAL2\bin\Debug\Model.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\DAL2\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\DAL2\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\DAL2\obj\Debug\DAL2.dll

@@ -81,13 +81,17 @@
       <Project>{b55e720d-284c-4d0f-8cca-f7f63b4132f1}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Factory2\Factory2.csproj">
+      <Project>{39d171d9-84ab-4c2c-89e9-bc578ae6a51e}</Project>
+      <Name>Factory2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface Logic-DAL\Interface Logic-DAL.csproj">
+      <Project>{066937c3-2df4-49d5-895a-cd2425e8d5af}</Project>
+      <Name>Interface Logic-DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LogicGoed2\Logic.csproj">
       <Project>{6d937ca0-2064-4f85-91e1-7c4f96c68cae}</Project>
       <Name>Logic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ModelLayer\Model.csproj">
-      <Project>{66872531-3f3c-477b-9889-2be9a57944e7}</Project>
-      <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

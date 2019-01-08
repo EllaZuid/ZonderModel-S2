@@ -636,7 +636,6 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Mi
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Microsoft.Net.Http.Headers.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Microsoft.Win32.Registry.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Model.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\MySql.Data.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Newtonsoft.Json.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\System.Buffers.dll
@@ -657,7 +656,6 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Sy
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\System.Web.Webpages.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\System.Web.Webpages.Razor.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Interface UI-Logic.pdb
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Model.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Google.Protobuf.xml
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Hardlopen\bin\Microsoft.AspNetCore.DataProtection.xml

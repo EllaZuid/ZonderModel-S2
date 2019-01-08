@@ -4,15 +4,17 @@ using System.Linq;
 using System.Web.Mvc;
 using ChartJSCore.Models;
 using Hardlopen.viewModels;
-using Model;
+using Factory;
+using Factory2;
+using Interface_UI_Logic;
 using Logic;
-using DAL;
 
 namespace Hardlopen.Controllers
 {
     public class ActiviteitController : Controller
     {
-        private readonly ActiviteitLogic _activiteitLogic = new ActiviteitLogic(new ActiviteitDal());
+        StartupFactory factory = new StartupFactory();
+        private readonly Activiteit _activiteit = new Activiteit(new MemoryFactory());
         private readonly Chart _chart = new Chart();
         private readonly Data _data = new Data();
 
@@ -38,8 +40,8 @@ namespace Hardlopen.Controllers
             int tijd = Convert.ToInt32(viewModel.Tijd);
             DateTime datum = Convert.ToDateTime(viewModel.Datum);
             int afstand = Convert.ToInt32(viewModel.Afstand);
-            Activiteit activiteit = new Activiteit(tijd, afstand, datum);
-            _activiteitLogic.GegevensInvullen(activiteit, (int)Session["idIngeloggd"]);
+            IActiviteit activiteit = new Activiteit(tijd, afstand, datum);
+            factory.GegevensInvullen(activiteit, (int)Session["idIngeloggd"], datum);
             return RedirectToAction("Index", "Home");
         }
 
@@ -78,7 +80,7 @@ namespace Hardlopen.Controllers
 
         private BarDataset MaakBarAfstand()
         {
-            List<double> data = _activiteitLogic.ToonOverzichtAfstandBar((int) Session["idIngeloggd"]);
+            List<double> data = _activiteit.ToonOverzichtAfstandBar((int) Session["idIngeloggd"]);
             List<string> kleur = new List<string>();
             foreach (double d in data)
             {
@@ -96,7 +98,7 @@ namespace Hardlopen.Controllers
 
         private BarDataset MaakBarTijd()
         {
-            List<double> data = _activiteitLogic.ToonOverzichtTijdBar((int) Session["idIngeloggd"]);
+            List<double> data = _activiteit.ToonOverzichtTijdBar((int) Session["idIngeloggd"]);
             List<string> kleur = new List<string>();
             foreach (double d in data)
             {
@@ -121,7 +123,7 @@ namespace Hardlopen.Controllers
                 YAxisID = "A",
                 BorderWidth = 4,
                 BackgroundColor = "rgba(255, 145, 255, 1.0)",
-                Data = _activiteitLogic.ToonOverzichtLine((int)Session["idIngeloggd"]),
+                Data = _activiteit.ToonOverzichtLine((int)Session["idIngeloggd"]),
                 Fill = "false",
             };
             return datasetline;

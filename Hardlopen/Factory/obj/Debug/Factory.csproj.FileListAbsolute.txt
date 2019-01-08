@@ -2,9 +2,7 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory\bin\Debu
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory\bin\Debug\Factory.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory\bin\Debug\netstandard.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory\bin\Debug\Interface UI-Logic.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory\bin\Debug\Model.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory\bin\Debug\Interface UI-Logic.pdb
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory\bin\Debug\Model.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory\obj\Debug\Factory.csprojAssemblyReference.cache
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory\obj\Debug\Factory.csproj.CoreCompileInputs.cache
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\Factory\obj\Debug\Factory.csproj.CopyComplete

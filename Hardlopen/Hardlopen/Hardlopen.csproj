@@ -308,7 +308,6 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ActiviteitController.cs" />
-    <Compile Include="Controllers\PlaylistController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -334,9 +333,6 @@
     <Content Include="Views\Activiteit\GegevensInvullen.cshtml" />
     <Content Include="Views\Activiteit\Overzicht.cshtml" />
     <Content Include="Views\Activiteit\Vergelijken.cshtml" />
-    <Content Include="Views\Playlist\Index.cshtml" />
-    <Content Include="Views\Playlist\MuziekLuisteren.cshtml" />
-    <Content Include="Views\Playlist\LiedjesToevoegen.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -350,6 +346,10 @@
       <Project>{b55e720d-284c-4d0f-8cca-f7f63b4132f1}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Factory2\Factory2.csproj">
+      <Project>{39D171D9-84AB-4C2C-89E9-BC578AE6A51E}</Project>
+      <Name>Factory2</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Factory\Factory.csproj">
       <Project>{330b5aea-7370-4b07-948a-82eba3bd15ab}</Project>
       <Name>Factory</Name>
@@ -361,10 +361,6 @@
     <ProjectReference Include="..\LogicGoed2\Logic.csproj">
       <Project>{6d937ca0-2064-4f85-91e1-7c4f96c68cae}</Project>
       <Name>Logic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ModelLayer\Model.csproj">
-      <Project>{66872531-3f3c-477b-9889-2be9a57944e7}</Project>
-      <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

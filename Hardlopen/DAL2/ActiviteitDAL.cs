@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using Model;
+using Interface_Logic_DAL;
 
 namespace DAL
 {
-    public class ActiviteitDal
+    public class ActiviteitDal : IActiviteitDAL
     {
         const string Connectionstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ella\source\repos\Maatwerk-S2\Hardlopen\Hardlopen\App_Data\DatabaseHardlopen.mdf;Integrated Security=True";
         readonly SqlConnection _conn = new SqlConnection(Connectionstring);
@@ -17,15 +17,15 @@ namespace DAL
             Console.WriteLine("Verbonden met " + Connectionstring + ".");
         }
 
-        public void GegevensInvullen(Activiteit activiteit, int gebruikerId)
+        public void GegevensInvullen(int tijd, DateTime datum, int afstand, int gebruikerId)
         {
             Open();
             string query = "INSERT INTO dbo.[Loopmoment] (gebruiker, tijd, datum, afstand) VALUES (@Gebruiker, @Tijd, @Datum, @Afstand)";
             SqlCommand commandInvullen = new SqlCommand(query, _conn);
             commandInvullen.Parameters.Add("@Gebruiker", SqlDbType.Int).Value = gebruikerId;
-            commandInvullen.Parameters.Add("@Tijd", SqlDbType.Int).Value = activiteit.Tijd;
-            commandInvullen.Parameters.Add("@Datum", SqlDbType.DateTime).Value = activiteit.Datum;
-            commandInvullen.Parameters.Add("@Afstand", SqlDbType.Int).Value = activiteit.Afstand;
+            commandInvullen.Parameters.Add("@Tijd", SqlDbType.Int).Value = tijd;
+            commandInvullen.Parameters.Add("@Datum", SqlDbType.DateTime).Value = datum;
+            commandInvullen.Parameters.Add("@Afstand", SqlDbType.Int).Value = afstand;
             commandInvullen.ExecuteNonQuery();
             Close();
         }
@@ -70,26 +70,26 @@ namespace DAL
             return loopmomentOverzichtAfstandBar;
         }
 
-        public virtual List<Activiteit> GegevensOverzichtOphalenLine(int id)
+        public virtual List<ActiviteitInfo> GegevensOverzichtOphalenLine(int id)
         {
-            List<Activiteit> LoopmomentOverzichtLine = new List<Activiteit>();
+            List<ActiviteitInfo> loopmomentOverzichtLine = new List<ActiviteitInfo>();
             Open();
             string query = "SELECT Tijd, Afstand FROM Loopmoment WHERE Afstand > 1000 AND Gebruiker = @Id";
             SqlCommand commandOverzicht = new SqlCommand(query, _conn);
             commandOverzicht.Parameters.Add("@Id", SqlDbType.NChar).Value = id;
             using (SqlDataReader reader = commandOverzicht.ExecuteReader())
             {
-                LoopmomentOverzichtLine.Clear();
+                loopmomentOverzichtLine.Clear();
                 while (reader.Read())
                 {
                     int afstand = reader.GetInt32(0);
                     int tijd = reader.GetInt32(1);
-                    Activiteit activiteit = new Activiteit(afstand, tijd);
-                    LoopmomentOverzichtLine.Add(activiteit);
+                    ActiviteitInfo activiteit = new ActiviteitInfo(tijd, afstand);
+                    loopmomentOverzichtLine.Add(activiteit);
                 }
             }
             Close();
-            return LoopmomentOverzichtLine;
+            return loopmomentOverzichtLine;
         }
 
         private void Close()

@@ -99,11 +99,9 @@ C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\D
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Factory2.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Interface Logic-DAL.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Interface UI-Logic.dll
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Model.dll
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Factory2.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Interface Logic-DAL.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Interface UI-Logic.pdb
-C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\bin\Debug\Model.pdb
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\obj\Debug\Logic.csprojAssemblyReference.cache
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\obj\Debug\Logic.csproj.CoreCompileInputs.cache
 C:\Users\Ella\source\repos\Maatwerk-S2\ZonderModel-S2\Hardlopen\LogicGoed2\obj\Debug\Logic.csproj.CopyComplete

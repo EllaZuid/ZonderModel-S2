@@ -41,12 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActiviteitLogic.cs" />
+    <Compile Include="Activiteit.cs" />
     <Compile Include="Gebruiker.cs" />
     <Compile Include="GebruikerCollection.cs" />
-    <Compile Include="PlaylistLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RouteLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL2\DAL.csproj">
@@ -64,10 +62,6 @@
     <ProjectReference Include="..\Interface UI-Logic\Interface UI-Logic.csproj">
       <Project>{958239e3-a594-4e48-af48-dddb8a1eb24a}</Project>
       <Name>Interface UI-Logic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ModelLayer\Model.csproj">
-      <Project>{66872531-3f3c-477b-9889-2be9a57944e7}</Project>
-      <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

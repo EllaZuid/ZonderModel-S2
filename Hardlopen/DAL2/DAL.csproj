@@ -50,10 +50,6 @@
       <Project>{066937c3-2df4-49d5-895a-cd2425e8d5af}</Project>
       <Name>Interface Logic-DAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ModelLayer\Model.csproj">
-      <Project>{66872531-3f3c-477b-9889-2be9a57944e7}</Project>
-      <Name>Model</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

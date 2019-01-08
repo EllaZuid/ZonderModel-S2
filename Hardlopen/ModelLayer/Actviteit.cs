@@ -8,9 +8,7 @@ namespace Model
         public int Tijd { get; private set; }
         public decimal GemiddeldeSnelheid { get; private set; }
         public int Afstand { get; private set; }
-        public Array[] Status { get; private set; }
-        public Route Route { get; private set; }
-        public Playlist Playlist { get; private set; }
+        public string[] Status { get; private set; }
 
         public Activiteit() { }
 
