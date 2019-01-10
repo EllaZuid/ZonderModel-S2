@@ -308,13 +308,16 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ActiviteitController.cs" />
+    <Compile Include="Controllers\SpotifyController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="viewModels\HomeViewModel.cs" />
     <Compile Include="viewModels\InloggenViewModel.cs" />
     <Compile Include="viewModels\InvullenViewModel.cs" />
     <Compile Include="viewModels\RegistrerenViewModel.cs" />
+    <Compile Include="viewModels\SpotifyViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -333,6 +336,8 @@
     <Content Include="Views\Activiteit\GegevensInvullen.cshtml" />
     <Content Include="Views\Activiteit\Overzicht.cshtml" />
     <Content Include="Views\Activiteit\Vergelijken.cshtml" />
+    <Content Include="Views\Spotify\Spotify.cshtml" />
+    <Content Include="Views\Spotify\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

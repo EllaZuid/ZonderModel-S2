@@ -1,4 +1,6 @@
-﻿@{
+﻿@using System.ServiceModel.Channels
+@model Hardlopen.viewModels.HomeViewModel
+@{
     ViewBag.Title = "";
 }
 
@@ -11,14 +13,14 @@
     <h2>Index</h2>
     @if (!((int?)Session["idIngeloggd"]).HasValue)
     {
-    <div>
-        <a href="@Url.Action("Inloggen", "Account")">
-            <button type="button" , ;>Inloggen</button>
-        </a>
-        <a href="@Url.Action("Registreren", "Account")">
-            <button type="button" ;>Registreren</button>
-        </a>
-    </div><br />
+        <div>
+            <a href="@Url.Action("Inloggen", "Account")">
+                <button type="button" , ;>Inloggen</button>
+            </a>
+            <a href="@Url.Action("Registreren", "Account")">
+                <button type="button" ;>Registreren</button>
+            </a>
+        </div><br />
     }
     else
     {
@@ -32,7 +34,20 @@
             <a href="@Url.Action("Uitloggen", "Account")">
                 <button type="button" ;>Uitloggen</button>
             </a>
+            <a href="@Url.Action("Spotify", "Spotify")">
+                <button type="button" ;>Voer link in</button>
+            </a>
         </div>
+        <br />
+        if ((string)Session["SpotifyLink"] == null)
+        {
+            @Html.Label("Voer eerst een link in.")
+        }
+        else
+        {
+            <iframe src=@Session["SpotifyLink"].ToString() width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        }
+
     }
 </body>
 </html>

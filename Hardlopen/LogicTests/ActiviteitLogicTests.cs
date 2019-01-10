@@ -11,7 +11,7 @@ namespace Logic.Tests
     [TestClass()]
     public class ActiviteitLogicTests
     {
-        //Intergration tests
+        //Unit tests
         private Mock<MemoryFactory> _memoryFactoryMock;
         private Activiteit _activiteit;
 
@@ -33,7 +33,8 @@ namespace Logic.Tests
             _memoryFactoryMock.Setup(m => m.GegevensOverzichtOphalenLine(6)).Returns(overzichtLine);
             var result = _activiteit.ToonOverzichtLine(6);
 
-            Assert.AreEqual(1, result[0]); //Mock van dal niet meer goed. Result 1,38888888888889
+            Assert.AreEqual(2, overzichtLine.Count);
+            Assert.AreEqual(1, result[0]);
             Assert.AreEqual(2, result[1]);
         }
 
@@ -47,7 +48,8 @@ namespace Logic.Tests
             _memoryFactoryMock.Setup(m => m.GegevensOverzichtOphalenTijdBar(6)).Returns(overzichtTijdBar);
             var result = _activiteit.ToonOverzichtTijdBar(6);
 
-            Assert.AreEqual(1, result[0]); //Mock van dal niet meer goed. Result 24.
+            Assert.AreEqual(2, overzichtTijdBar.Count);
+            Assert.AreEqual(1, result[0]);
             Assert.AreEqual(2, result[1]);
         }
 
@@ -60,8 +62,11 @@ namespace Logic.Tests
             _memoryFactoryMock.Setup(m => m.GegevensOverzichtOphalenAfstandBar(6)).Returns(overzichtAfstandBar);
             var result = _activiteit.ToonOverzichtAfstandBar(6);
 
-            Assert.AreEqual(1, result[0]); //Mock van dal niet meer goed. Result 2.
+            Assert.AreEqual(2, overzichtAfstandBar.Count);
+            Assert.AreEqual(1, result[0]);
             Assert.AreEqual(2, result[1]);
         }
+
+        //Intergration test TijdBar
     }
 }

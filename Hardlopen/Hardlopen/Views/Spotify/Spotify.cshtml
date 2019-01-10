@@ -1,0 +1,27 @@
+﻿@model Hardlopen.viewModels.SpotifyViewModel
+@{
+    ViewBag.Title = "Spotify";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home: Index</title>
+</head>
+<body>
+    <h2>Index</h2>
+    @using (Html.BeginForm("Spotify", "Spotify", FormMethod.Post))
+    {
+        <p>
+            @Html.Label("Link naar wat je wil afspelen:") <br />
+            @Html.TextBoxFor(vmInvullen => vmInvullen.Link, "Link")
+        </p>
+        <p>
+            <div>
+                <input type="submit" value="Stuur link in" id="NextBtn" />
+            </div>
+        </p>
+    }
+    
+</body>
+</html>

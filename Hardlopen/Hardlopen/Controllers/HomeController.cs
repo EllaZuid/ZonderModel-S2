@@ -12,6 +12,15 @@ namespace Hardlopen.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            HomeViewModel viewModel = new HomeViewModel();
+            viewModel.Link = String.Empty;
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(HomeViewModel viewModel)
+        {
+            viewModel.Link = Session["SpotifyLink"].ToString();
             return View();
         }
     }
