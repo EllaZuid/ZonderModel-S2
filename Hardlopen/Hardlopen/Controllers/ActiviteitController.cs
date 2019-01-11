@@ -141,7 +141,7 @@ namespace Hardlopen.Controllers
                     Min = 0,
                     Max = MaakBarAfstand().Data.Max() + 1
                 }
-            };
+            }; //System.InvalidOperationException: 'Reeks bevat geen elementen'
         }
 
         private CartesianScale MaakScaleB()
